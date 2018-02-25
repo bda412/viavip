@@ -371,16 +371,16 @@ button:hover {
 
 .footer-details a {
     margin: 1em 0;
-    font-size: 1.6em;
+    font-size: 1.8em;
     transition: all 0.2s ease;
 }
 
-@media only screen and (max-device-width: 480px) {
+/*@media only screen and (max-device-width: 480px) {
     .footer-details a {
         font-size: 3em;
     }
 
-}
+}*/
 
 .footer-details a:hover {
     font-weight: bold;
