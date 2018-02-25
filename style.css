@@ -1,0 +1,347 @@
+* {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+header,
+footer {
+    background: #d8122b;
+    color: #fff;
+
+}
+
+header a,
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 5rem;
+    padding: 2rem 0 1rem;
+}
+
+.brand h2 {
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    margin-left: 2rem;
+    padding: 1.5rem 0;
+}
+
+.nav ul li a {
+    font-size: 1.4rem;
+    transition: all 0.2s ease;
+}
+
+.nav ul li a:hover {
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    padding: 5rem 0;
+    align-items: flex-start;
+    min-height: 70vh;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
+
+.content p span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*-----LOGIN-----*/
+
+.loginPageBackground {
+    background: linear-gradient(to top right, #d8122b, #e2e2e2);
+    background-size: cover;
+}
+
+.loginPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extraBox {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1rem solid #d8122b;
+}
+
+.loginBox {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5rem;
+    border-radius: 2rem;
+    border: 0.5rem solid #d8122b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-logo {
+    height: 7rem;
+    padding: 1rem;
+}
+
+.loginBox h2 {
+    color: #d8122b;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem;
+}
+
+input {
+    background: transparent;
+    border: none;
+    margin: 1rem;
+    width: 90%;
+    padding: 0.7rem;
+    border-bottom: 0.2rem solid #4E4D4D;
+    font-size: 1.8rem;
+    font-family: Raleway, sans-serif;
+}
+
+.loginBox button {
+    padding: 1rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.createAccount {
+    background: #424041;
+}
+
+.createAccount:hover {
+    background: #726F70;
+}
+
+/*-----DASHBOARD-----*/
+
+.dashboard {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F1F1;
+    border: 1px solid;
+    box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.16);
+    border-radius: 1rem;
+    text-align: center;
+    height: 45rem;
+    width: 35rem;
+    margin: 3rem;
+}
+
+
+.dashBlockTitle {
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-top: 2.5rem;
+    padding-bottom: 0.8rem;
+}
+
+.line {
+    width: 10rem;
+    border-bottom: 0.3rem solid #707070;
+}
+
+.pointsCount {
+    margin: 3.8rem auto;
+    background: #fff;
+    border: 2.5rem solid rgba(216, 18, 43, 0.3);
+    border-radius: 100rem;
+    height: 24rem;
+    width: 24rem;
+}
+
+.pointsCount p {
+    color: #d8122b;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.textYou {
+    padding-top: 4rem;
+}
+
+#numberOfPoints {
+    font-size: 9rem;
+    line-height: 9rem;
+    padding-bottom: 1.8rem;
+}
+
+.earnMoreButtons,
+.redeemNowButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2.5rem 0;
+}
+
+button {
+    background: #d8122b;
+    color: #fff;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    font-family: Raleway, sans-serif;
+    font-size: 2rem;
+    height: 8rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.10);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #B8041B;
+}
+
+.earnMoreButtons button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.earnMoreButtons button a.scan {
+    font-size: 2.5rem;
+}
+
+.redeemNowButtons {
+    margin: 1.5rem 0;
+}
+
+.redeemNowButtons button {
+    padding: 0rem 4rem;
+    margin: 2rem;
+    height: 15rem;
+}
+
+.redeemNowButtons button a {
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.8rem;
+
+}
+
+/*-----STYLES FOR ALL INFO PAGES-----*/
+
+.pageTitle h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.pageHeadline {
+    font-size: 2rem;
+    color: #d8122b;
+    margin: 1rem 0;
+}
+
+/*-----INVITE FRIENDS-----*/
+
+.inviteDetails p.inviteInfo {
+    line-height: 3rem;
+}
+
+.inviteDetails p.inviteLink {
+    font-weight: bold;
+}
+
+/*-----FAQS-----*/
+
+.faqs {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+/*-----CONTACT US-----*/
+
+.contactDetails {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contactDetails p {
+    margin-right: 4rem;
+    line-height: 2.5rem;
+    padding: 1rem 0;
+}
+
+/*-----MY ACCOUNT-----*/
+
+.accountSection p {
+    margin: 2rem 0;
+}
+
+/*-----FOOTER-----*/
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-details a {
+    margin: 1em 0;
+    font-size: 1.6em;
+    transition: all 0.2s ease;
+}
+
+.footer-details a:hover {
+    font-weight: bold;
+}
