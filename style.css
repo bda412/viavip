@@ -37,6 +37,10 @@ footer a {
     .navbar {
         justify-content: center;
     }
+
+    .nav ul li {
+        margin-right: 2em;
+    }
 }
 
 .brand {
@@ -164,7 +168,7 @@ input {
     background: #726F70;
 }
 
-@media only screen and (max-device-width: 480px) {}
+
 
 /*-----DASHBOARD-----*/
 
@@ -225,6 +229,27 @@ input {
     font-size: 9rem;
     line-height: 9rem;
     padding-bottom: 1.8rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .pointsCount {
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .pointsCount p {
+        font-size: 1.8rem;
+    }
+
+    .textYou {
+        padding-top: 3rem;
+    }
+
+    #numberOfPoints {
+        font-size: 7rem;
+        line-height: 7rem;
+        padding-bottom: 1.5rem;
+    }
 }
 
 .earnMoreButtons,
@@ -352,7 +377,7 @@ button:hover {
 
 @media only screen and (max-device-width: 480px) {
     .footer-details a {
-        font-size: 2em;
+        font-size: 3em;
     }
 
 }
