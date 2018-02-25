@@ -94,7 +94,7 @@ footer a {
 }
 
 .loginPage {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,6 +157,8 @@ input {
 .createAccount:hover {
     background: #726F70;
 }
+
+@media only screen and (max-device-width: 480px) {}
 
 /*-----DASHBOARD-----*/
 
