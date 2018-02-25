@@ -132,7 +132,7 @@
  }
 
  function editUser() {
-     window.open("index.html", "_self");
+     window.open("dashboard.html", "_self");
      document.getElementById("numberOfPoints").innerHTML() = person.userPoints;
      console.log(person.userPoints);
 
