@@ -82,9 +82,9 @@ footer a {
 
 .content {
     display: flex;
-    padding: 5rem 0;
+    padding: 3rem 0;
     align-items: flex-start;
-    min-height: 70vh;
+    min-height: 75vh;
 }
 
 .content p {
@@ -190,7 +190,7 @@ input {
     text-align: center;
     height: 45rem;
     width: 35rem;
-    margin: 3rem;
+    margin: 5rem 3rem;
 }
 
 
@@ -370,8 +370,8 @@ button:hover {
 }
 
 .footer-details a {
-    margin: 1em 0;
-    font-size: 1.8em;
+    margin: 0.8em 0;
+    font-size: 11em;
     transition: all 0.2s ease;
 }
 
